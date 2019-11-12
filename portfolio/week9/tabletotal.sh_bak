@@ -1,0 +1,16 @@
+#/bin/bash
+
+
+divider========================================
+divider=$divider$divider
+
+header="\n %-25s %8s %10s %10s \n"
+format=" %-25s %8d %10s %10s \n"
+
+width=60
+
+printf "$header" "ITEM NAME" "QUANTITY" "PRICE" "TOTAL"
+
+printf "%$width.${width}s\n" "$divider"
+
+printf "$format" \

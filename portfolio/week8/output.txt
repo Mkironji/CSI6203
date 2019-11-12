@@ -1,0 +1,19 @@
+    \033[31mERROR:\033[0m $VAR1
+    \033[31mERROR:\033[0m $1
+this the start of your script
+Thank you
+		Sorry, your guess was too high...
+		Sorry, your guess was too low...
+	Try again: 
+    \033[31mERROR:\033[0m $1
+this the start of your script
+Thank you
+Thank you
+Area of a triangle is: $i 
+#Enter base of a triangle : 
+ #Enter height of a triangle : 
+#Area of a triangle is: $area
+Enter base of a triangle : 
+ Enter height of a triangle : 
+area= `scale=2; 1/2*$base*$height | bc`
+Area of a triangle is: $are
